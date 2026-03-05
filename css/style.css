@@ -1,2 +1,6 @@
-.cortitulo{color:rgb(40, 208, 40)}
-.cordobody{color:red}
+h1 {
+    color: rgb(208, 74, 40);
+}
+h2 {
+    color: rgb(203, 11, 11);
+}
