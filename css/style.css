@@ -1,76 +1,40 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-/* Corpo */
 body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #000000, #8b0000);
-  color: #fff;
-  padding: 20px;
+  background-color: rgb(167, 43, 43);
+  font-family: Arial;
 }
 
-/* Títulos */
 h1 {
-  font-size: 2.5rem;
+  color: white;
   text-align: center;
-  color: #ff0000;
-  margin-bottom: 20px;
+  margin: 25px;
 }
 
 h2 {
-  font-size: 1.5rem;
+  color: white;
   text-align: center;
-  margin-bottom: 30px;
-  color: #ffffff;
+  margin-bottom: 20px;
 }
 
-/* Parágrafos */
 p {
-  margin-bottom: 15px;
-  line-height: 1.6;
-  background-color: rgba(255,255,255,0.05);
-  padding: 10px;
-  border-radius: 8px;
+  color: black;
+  margin: 20px;
+  text-align: center; 
 }
 
-/* Destaque de títulos dentro do texto */
-p strong {
-  color: #ff4d4d;
-}
-
-/* Links */
-a {
-  color: #00c3ff;
-  text-decoration: none;
+.primeira-frase {
   font-weight: bold;
+  font-size: 1.2em;
 }
 
-a:hover {
-  text-decoration: underline;
-  color: #ffffff;
-}
-
-/* Imagem */
 img {
   display: block;
-  margin: 20px auto;
-  max-width: 90%;
-  border-radius: 10px;
-  border: 3px solid #fff;
+  margin: 80px ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
 }
-
-/* Quebra de linha */
-br {
-  margin-bottom: 10px;
-}
-
-/* Rodapé (se quiser usar depois) */
-footer {
-  margin-top: 40px;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #ccc;
