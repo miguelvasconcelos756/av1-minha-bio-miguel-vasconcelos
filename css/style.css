@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(167, 43, 43);
+  background-color: rgb(212, 74, 74);
   font-family: Arial;
 }
 
@@ -23,7 +23,7 @@ h2 {
 p {
   color: black;
   margin: 20px;
-  text-align: center; 
+  text-align: center;
 }
 
 .primeira-frase {
@@ -33,8 +33,13 @@ p {
 
 img {
   display: block;
-  margin: 80px ;
+  margin: 80px;
   margin-left: auto;
   margin-right: auto;
-  width: 1000px;
+  width: 50%;
+}
+.123 {
+  color: goldenrod;
+  text-align: center;
+  margin: 20px;
 }
