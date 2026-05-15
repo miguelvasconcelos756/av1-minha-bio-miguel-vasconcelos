@@ -63,8 +63,8 @@ a:hover {
 }
 
 button {
-  background-color: #c00000;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(255, 0, 0);
   border: none;
   padding: 12px 20px;
   border-radius: 8px;
@@ -82,4 +82,11 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 20px;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 100%;
 }
